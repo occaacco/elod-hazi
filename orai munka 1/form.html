@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benkő Sámuel">
+    <meta name="description" content="HTML5-CSS3 Weboldal projekt">
+    <meta name="keywords" content="HTML5, CSS3, CSS animáció, Javascript, Webform, képgaléria">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>HTML5 - CSS3 - Webproject</title>
+</head>
+
+<body>
+    <!--Benkő Sámuel-->
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/premo-logo.png" alt="Premo logo" width="150"></a>
+
+        </div>
+        <div id="banner-content">
+            <a href="index.html">
+                <h1 title="Az főcím szövege">HTML5 - CSS3 Gyakorlatok</h1>
+            </a>
+            <h2>«header»</h2>
+        </div>
+    </header>
+    <div id="container">
+        <nav>
+            <h2>«nav»</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="#nogo">HTML Demo</a>
+                        <ul>
+                            <li><a href="css_animation.html">CSS Animáció</a>
+                            <li><a href="form.html">Űrlap</a>
+                                <li><a href="table.html">Táblázat</a></li>
+                                <li><a href="galery.html">Képgaléria</a></li>
+                                <li><a href="media.html">Média</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <h2>«section»</h2>
+            <article>
+                <h2>«Űrlap»</h2>
+                <form action="" name="rendelés">
+                    <fieldset>
+                        <legend>Megrendelő adatai</legend>
+                        <p>
+                            <label for="">Név: <input type="text" name="nev"></label>
+                            <small>Vezetéknév keresztnév</small>
+                        </p>
+                        <p>
+                            <label for="">Tel.: <input type="tel" name="telefon" size="17"></label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>A pizza mérete</legend>
+                        <p><label for=""><input type="radio" , name="meret" value="kicsi" , checked>Kicsi</label></p>
+                        <p><label for=""><input type="radio" , name="meret" value="kicsi">Nagy</label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Feltétek</legend>
+                        <p><label for=""><input type="checkbox" name="feltet1" value="sonka" checked>Sonka</label></p>
+                        <p><label for=""><input type="checkbox" name="feltet2" value="sajt">Sajt</label></p>
+                        <p><label for=""><input type="checkbox" name="feltet3" value="gomba">Gomba</label></p>
+                    </fieldset>
+                    <p><label for="">Mennyiség: <input type="number" name="mennyiseg"></label></p>
+                    <p><label for="">Kért kiszállítási idő: <input type="date" name="kiszallitas"></label></p>
+                    <p><label for="">Egyéb kívánságok: <input type="text" name="egyeb"></label></p>
+                    <input type="reset" name="visszaallitas">
+                    <input type="submit" name="kuldes">
+                </form>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <h2>«footer»</h2>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benkő Sámuel">
+    <meta name="description" content="HTML5-CSS3 Weboldal projekt">
+    <meta name="keywords" content="HTML5, CSS3, CSS animáció, Javascript, Webform, képgaléria">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>HTML5 - CSS3 - Webproject</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        th {
+            color: white;
+            background-color: cornflowerblue;
+        }
+
+        .table-container {
+            width: 650px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        table tr:nth-child(2)
+        {
+            background-color: #ccc;
+        }
+
+        table tr:hover 
+        {
+            background-color: cadetblue;
+            color: white;
+        }
+        @media screen and (min-width: 640px)
+        {
+            section
+            {
+                background-color: lightgreen;
+            }
+        }
+        @media screen and (min-width: 640px)
+        {
+            #banner-content
+            {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Benkő Sámuel-->
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/premo-logo.png" alt="Premo logo" width="150"></a>
+
+        </div>
+        <div id="banner-content">
+            <a href="index.html">
+                <h1 title="Az főcím szövege">HTML5 - CSS3 Gyakorlatok</h1>
+            </a>
+            <h2>«header»</h2>
+        </div>
+    </header>
+    <div id="container">
+        <nav>
+            <h2>«nav»</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="#nogo">HTML Demo</a>
+                        <ul>
+                            <li><a href="css_animation.html">CSS Animáció</a>
+                            <li><a href="form.html">Űrlap</a>
+                            <li><a href="table.html">Táblázat</a></li>
+                            <li><a href="galery.html">Képgaléria</a></li>
+                            <li><a href="media.html">Média</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <h2>«section»</h2>
+            <article>
+                <div class="table-container">
+                    <h2>«section»</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>név</th>
+                                <th>foglalkozás</th>
+                                <th>lakcím</th>
+                                <th>telefon</th>
+                                <th>email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Joe Doe</td>
+                                <td>webfejlesztő</td>
+                                <td>Baker str. 1.</td>
+                                <td>111-222</td>
+                                <td>joe.doe@email.com</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Gipsz Jakab</td>
+                                <td>programozó</td>
+                                <td>Pékek utca, 10.</td>
+                                <td>222-333</td>
+                                <td>gipsz.jakab@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Bél Flóra</td>
+                                <td>gasztroentreológus</td>
+                                <td>Vak Bél utca, 1.</td>
+                                <td>333-444</td>
+                                <td>bel.flora@email.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <h2>«footer»</h2>
+
+    </footer>
+</body>
+
+</html>
