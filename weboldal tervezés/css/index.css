@@ -1,0 +1,115 @@
+/*Benkő Sámuel*/
+#container {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+section {
+    padding-top: 50px;
+    border-radius: 16px;
+    width: 1100px;
+    height: 700px;
+    background-color: #F5C16C;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#pizza-list {
+    width: 900px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#pizza {
+    border-radius: 16px;
+    background-color: #F3EDED;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#pizza-item1,
+#pizza-item2,
+#pizza-item3 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px 16px 0px 0px;
+    height: 150px;
+    width: 100%;
+}
+
+#pizza-item1 {
+    background-image: url("../images/pizza3.jpg");
+}
+
+#pizza-item2 {
+    background-image: url("../images/pizza2.jpg");
+}
+
+#pizza-item3 {
+    background-image: url("../images/pizza1.jpg");
+}
+
+#welcome {
+    border-radius: 16px;
+    width: 840px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3EDED;
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 25px 1px 25px;
+    box-sizing: border-box;
+}
+
+#shop-list {
+    width: 1100px;
+    height: 310px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shop {
+    border-radius: 16px;
+    width: 350px;
+    height: 270px;
+    margin-top: 20px;
+    background-color: #F5C16C;
+    text-align: center;
+}
+#shop-item1,
+#shop-item2,
+#shop-item3 {
+    
+    border: 3px solid black;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px 16px 0px 0px;
+    height: 200px;
+    width: 344.98px;
+}
+
+#shop-item1 {
+    background-image: url("../images/shop1.jpg");
+}
+
+#shop-item2 {
+    background-image: url("../images/shop2.jpg");
+}
+
+#shop-item3 {
+    background-image: url("../images/shop3.jpg");
+}

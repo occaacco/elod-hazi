@@ -1,0 +1,32 @@
+/*Benkő Sámuel*/
+#container {
+    float: left;
+    height: 1205px;
+    width: 100%;
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    width: 900px;
+    height: 1150px;
+    background-color: #F5C16C;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+}
+
+video {
+    width: 800px;
+    height: 500px;
+}

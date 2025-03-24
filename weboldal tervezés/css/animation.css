@@ -1,0 +1,43 @@
+/*Benkő Sámuel*/
+#container {
+    float: left;
+    height: 955px;
+    width: 100%;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    width: 900px;
+    height: 900px;
+    background-color: #F5C16C;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pizza {
+    border: 10px solid #AA530E;
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: #DF8931;
+    overflow: hidden;
+    margin: auto auto auto auto;
+}
+.slice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 50%, 200% 100%, 90% 90%);
+    background: #AA530E;
+    transform: rotate(0deg);
+    opacity: 0;
+    animation: rotateSlice 10s infinite linear forwards;
+}
+@keyframes rotateSlice {
+    0% { opacity: 1; transform: rotate(0deg); }
+    100% { opacity: 1; transform: rotate(360deg); }
+}

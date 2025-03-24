@@ -1,0 +1,39 @@
+/*Benkő Sámuel*/
+#container {
+    float: left;
+    height: 1555px;
+    width: 100%;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    width: 800px;
+    height: 1500px;
+    background-color: #F5C16C;
+    margin-right: auto;
+    margin-left: auto;
+}
+#form-container {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+fieldset {
+    width: 500px;
+    border-width: 4px;
+    border-color:  #DF8931;
+}
+input {
+    float: right;
+    border: 3px solid black;
+}
+
+input:hover
+{
+    border-width: 3px;
+    border-color: #DF8931;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benkő Sámuel">
+    <meta name="description" content="HTML5-CSS3 Weboldal projekt">
+    <meta name="keywords" content="HTML5, CSS3, CSS animáció, Javascript, Webform, képgaléria">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Animáció</title>
+</head>
+
+<body>
+    <!--Benkő Sámuel-->
+    <header>
+        <div id="logo">
+            <a><img src="images/favicon.png" alt="Logó" width="190px" style=""></a>
+        </div>
+        <div id="logo" style="float: right; visibility: hidden;">
+            <a><img src="images/favicon.png" alt="Logó" width="190px" style=""></a>
+        </div>
+        <a id="design-a">
+            <h1 style="color: #F5C16C;">Pálma Pizzázó</h1>
+        </a>
+    </header>
+    <nav>
+        <ul id="page-chooser">
+            <a href="index.html">
+                <li>Főoldal</li>
+            </a>
+            <a href="animation.html">
+                <li>Animáció</li>
+            </a>
+            <a href="table.html">
+                <li>Táblázat</li>
+            </a>
+            <a href="form.html">
+                <li>Űrlap</li>
+            </a>
+            <a href="gallery.html">
+                <li>Galéria</li>
+            </a>
+            <a href="media.html">
+                <li>Videók</li>
+            </a>
+        </ul>
+    </nav>
+    <div id="container">
+        <section>
+            <div id="form-container">
+                <h1 style="border: 3px solid black;padding: 5px;">Pizza rendelés:</h1>
+                <b>
+            <form action="" name="rendelés">
+                <fieldset>
+                    <legend>Rendelési adatok</legend>
+                    <p>
+                        <label>Név: <input type="text" name="nev"></label>
+                    </b><small>(teljes név)</small><b>
+                    </p>
+                    <p>
+                        <label>Tel.: </b>(+36)<b><input type="tel" name="telefon" size="15"></label>
+                    </p>
+                    <p>
+                        <label>Város: <input type="text" name="varos"></label>
+                    </p>
+                    <p>
+                        <label>Irányítószám: <input type="number" name="iranyitoszam"></label>
+                    </p>
+                    <p>
+                        <label>Utca, házszám: <input type="text" name="utcahazszam"></label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>A pizza mérete</legend>
+                    <p><label><input type="radio" name="meret" value="24cm">24cm</label></p>
+                    <p><label><input type="radio" name="meret" value="28cm" checked>28cm</label></p>
+                    <p><label><input type="radio" name="meret" value="40cm">40cm</label></p>
+                    <p><label><input type="radio" name="meret" value="60cm">60cm</label></p>
+                    <p><label><input type="radio" name="meret" value="100cm">100cm</label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Pizzáink</legend>
+                    <p><label><input type="radio" name="pizza" value="1" checked>Sonkás-kukoricás pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="2">Hawaii pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="3">Sajtos pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="7">Sonkás-gombás pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="5">Bolognai pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="6">Szalámis pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="4">Húsimádó pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="8">Buldózer pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="9">TNT pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="10">Másnapos pizza</label></p>
+                    <p><label><input type="radio" name="pizza" value="11">Nagyon gazdagok arany pizzája</label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Amire oda kell figyelnünk</legend>
+                    <p><label><input type="checkbox" name="adat1" value="24cm">Gluténmentes</label></p>
+                    <p><label><input type="checkbox" name="adat2" value="28cm">Húsmentes</label></p>
+                    <p><label><input type="checkbox" name="adat3" value="40cm">Tojásmentes</label></p>
+                    <p><label><input type="checkbox" name="adat4" value="60cm">Tejmentes</label></p>
+                </fieldset>
+                <p><label>Mennyiség: <input type="number" name="mennyiseg"></label></p>
+                <p><label>Kért kiszállítási idő: <input type="date" name="kiszallitas"></label></p>
+                <br>
+                <p><label>Egyéb kívánságok: <input type="text" name="egyeb"></label></p>
+                <input type="reset" name="visszaallitas" style="margin-left: 10px;">
+                <input type="submit" name="kuldes">
+            </form>
+        </b>
+        </div>
+        </section>
+    </div>
+    <footer id="upper-footer"><a id="design-a">
+            <p style="color: #F3EDED;text-align: center;">Pálma Pizzázó</p>
+        </a></footer>
+    <footer id="lower-footer">
+        <p style="text-align: center;color: #F3EDED;">&#169; 2025 Minden jog fenntartva.</p>
+    </footer>
+</body>
+
+</html>
